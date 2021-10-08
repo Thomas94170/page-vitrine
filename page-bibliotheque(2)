@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bibliothèque</title>
+</head>
+
+<body>
+    <!-- mise en place de la navbar -->
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="img/logo_small.png" alt="Lis!" height="20%"
+                            width="20%"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="page-bibliotheque.html" target="_blank">Bibliothèque</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="page-evenements.html" target="_blank">Evénements</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- mise en place du fil d'ariane -->
+    <div class="row">
+        <nav class="col-12" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Bibliothèque</li>
+            </ol>
+        </nav>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <header class="col-12 text-center">
+        <h1>Nos livres</h1>
+        <br>
+        <p>Notre Bibliothèque s'enrichissant de nouveaux ouvrages au fil des semaines, une mise à jour sera effectuée
+            fréquemment</p>
+    </header>
+
+    <br>
+    <br>
+
+    <!-- mise en place des card design -->
+    <main class="d-flex justify-content-center"></main>
+    <div class="card-main">
+        <img src="img/Dune.jpg" class="card-img-top " alt="Roman Dune" height="auto" width="100%">
+        <div class="card-body">
+            <h2 class="card-title text-center">Dune</h2>
+            <p>Résumé : Dans tout l’Empire, Dune est la planète la plus inhospitalière,
+                parcourue de sable sur toute son étendue. Malheureusement,
+                Dune possède aussi une grande richesse très convoitée : l’épice de longue vie.
+                Et qui dit inhospitalière ne dit pas inhabitée : réfugiés au fin fond du désert
+                se trouvent les guerriers Fremen, qui rêvent du prophète qui proclamera
+                la guerre sainte et changera le cours de l’histoire.
+                Mais le Messie des Fremen n’est-il pas déjà né ?
+            </p>
+            <button class="button w-100 text-center" type="submit">
+                <a href="#" target="_blank">Le lire</a>
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="card-main">
+        <img src="img/Fondation.jpg" class="card-img-top " alt="Roman Fondation">
+        <div class="card-body">
+            <h2 class="card-title text-center">Fondation</h2>
+            <p>Résumé : Environ 22 000 ans dans le futur, les humains ont pris possession de 25 millions de planètes
+                formant ainsi un immense Empire Galactique. Mais cet Empire est loin d’être stable et c’est ce que met
+                en évidence un mathématicien Hari Seldon, avec la psycho-histoire, science qui lui permet de prédire
+                l’avenir grâce aux mathématiques : la chute de l’Empire est aussi proche qu’inéluctable.
+                Pour y pallier est mis en place le Plan Sheldon,
+                avec pour but de construire un Empire encore plus grand et plus solide que le premier.
+            </p>
+            <button class="button w-100 text-center" type="submit">
+                <a href="#" target="_blank">Le lire</a>
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="card-main">
+        <img src="img/Dune.jpg" class="card-img-top " alt="Roman Dune">
+        <div class="card-body">
+            <h2 class="card-title text-center">Dune</h2>
+            <p>Résumé : Dans tout l’Empire, Dune est la planète la plus inhospitalière,
+                parcourue de sable sur toute son étendue. Malheureusement,
+                Dune possède aussi une grande richesse très convoitée : l’épice de longue vie.
+                Et qui dit inhospitalière ne dit pas inhabitée : réfugiés au fin fond du désert
+                se trouvent les guerriers Fremen, qui rêvent du prophète qui proclamera
+                la guerre sainte et changera le cours de l’histoire.
+                Mais le Messie des Fremen n’est-il pas déjà né ?
+            </p>
+            <button class="button w-100 text-center" type="submit">
+                <a href="#" target="_blank">Le lire</a>
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="card-main">
+        <img src="img/Dune.jpg" class="card-img-top " alt="Roman Dune">
+        <div class="card-body">
+            <h2 class="card-title text-center">Dune</h2>
+            <p>Résumé : Dans tout l’Empire, Dune est la planète la plus inhospitalière,
+                parcourue de sable sur toute son étendue. Malheureusement,
+                Dune possède aussi une grande richesse très convoitée : l’épice de longue vie.
+                Et qui dit inhospitalière ne dit pas inhabitée : réfugiés au fin fond du désert
+                se trouvent les guerriers Fremen, qui rêvent du prophète qui proclamera
+                la guerre sainte et changera le cours de l’histoire.
+                Mais le Messie des Fremen n’est-il pas déjà né ?
+            </p>
+            <button class="button w-100 text-center" type="submit">
+                <a href="#" target="_blank">Le lire</a>
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="card-main">
+        <img src="img/Dune.jpg" class="card-img-top " alt="Roman Dune">
+        <div class="card-body">
+            <h2 class="card-title text-center">Dune</h2>
+            <p>Résumé : Dans tout l’Empire, Dune est la planète la plus inhospitalière,
+                parcourue de sable sur toute son étendue. Malheureusement,
+                Dune possède aussi une grande richesse très convoitée : l’épice de longue vie.
+                Et qui dit inhospitalière ne dit pas inhabitée : réfugiés au fin fond du désert
+                se trouvent les guerriers Fremen, qui rêvent du prophète qui proclamera
+                la guerre sainte et changera le cours de l’histoire.
+                Mais le Messie des Fremen n’est-il pas déjà né ?
+            </p>
+            <button class="button w-100 text-center" type="submit">
+                <a href="#" target="_blank">Le lire</a>
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="card-main">
+        <img src="img/Dune.jpg" class="card-img-top " alt="Roman Dune">
+        <div class="card-body">
+            <h2 class="card-title text-center">Dune</h2>
+            <p>Résumé : Dans tout l’Empire, Dune est la planète la plus inhospitalière,
+                parcourue de sable sur toute son étendue. Malheureusement,
+                Dune possède aussi une grande richesse très convoitée : l’épice de longue vie.
+                Et qui dit inhospitalière ne dit pas inhabitée : réfugiés au fin fond du désert
+                se trouvent les guerriers Fremen, qui rêvent du prophète qui proclamera
+                la guerre sainte et changera le cours de l’histoire.
+                Mais le Messie des Fremen n’est-il pas déjà né ?
+            </p>
+            <button class="button w-100 text-center" type="submit">
+                <a href="#" target="_blank">Le lire</a>
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="card-main">
+        <img src="img/Dune.jpg" class="card-img-top " alt="Roman Dune">
+        <div class="card-body">
+            <h2 class="card-title text-center">Dune</h2>
+            <p>Résumé : Dans tout l’Empire, Dune est la planète la plus inhospitalière,
+                parcourue de sable sur toute son étendue. Malheureusement,
+                Dune possède aussi une grande richesse très convoitée : l’épice de longue vie.
+                Et qui dit inhospitalière ne dit pas inhabitée : réfugiés au fin fond du désert
+                se trouvent les guerriers Fremen, qui rêvent du prophète qui proclamera
+                la guerre sainte et changera le cours de l’histoire.
+                Mais le Messie des Fremen n’est-il pas déjà né ?
+            </p>
+            <button class="button w-100 text-center" type="submit">
+                <a href="#" target="_blank">Le lire</a>
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="card-main">
+        <img src="img/Dune.jpg" class="card-img-top " alt="Roman Dune">
+        <div class="card-body">
+            <h2 class="card-title text-center">Dune</h2>
+            <p>Résumé : Dans tout l’Empire, Dune est la planète la plus inhospitalière,
+                parcourue de sable sur toute son étendue. Malheureusement,
+                Dune possède aussi une grande richesse très convoitée : l’épice de longue vie.
+                Et qui dit inhospitalière ne dit pas inhabitée : réfugiés au fin fond du désert
+                se trouvent les guerriers Fremen, qui rêvent du prophète qui proclamera
+                la guerre sainte et changera le cours de l’histoire.
+                Mais le Messie des Fremen n’est-il pas déjà né ?
+            </p>
+            <button class="button w-100 text-center" type="submit">
+                <a href="#" target="_blank">Le lire</a>
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
