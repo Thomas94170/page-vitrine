@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Association-de-Lecture-Le-Perreux-Sur-Marne. Livres-Science-Fiction" >
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Evenements</title>
+</head>
+
+<body>
+    <!-- mise en place de la navbar -->
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="img/logo_small.png" alt="Lis!" height="20%"
+                            width="20%"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link"  href="page-accueil.html" target="_blank">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="page-bibliotheque.html" target="_blank">Bibliothèque</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="page-evenements.html">Evénements</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- mise en place du fil d'ariane -->
+    <div class="row">
+        <nav class="col-12" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Evénements</li>
+            </ol>
+        </nav>
+    </div>
+
+    <!-- mise en place du main  -->
+    <main>
+        <div>
+            <h1 class="text-center">Jeu Concours</h1>
+            <br>
+            <br>
+            <p>Rédiger une nouvelle, un poème ou une piece de théatre afin de remporter les prix suivants:</p>
+            <ul>
+                <li>un chèque d'une valeur de 100€ pour l'achat de fournitures scolaires</li>
+                <li>un chèque d'une valeur de 100€ à utiliser au rayons librairies Cultura ou Fnac</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">Age</th>
+                        <th scope="col">Nouvelle</th>
+                        <th scope="col">Piece de théatre</th>
+                        <th scope="col">Poème</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">14-18 ans</th>
+                        <td>3 pages</td>
+                        <td>2 scènes</td>
+                        <td>12 vers</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">18-32 ans</th>
+                        <td>6 pages</td>
+                        <td>4 scènes</td>
+                        <td>18 vers</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">32 et +</th>
+                        <td>9 pages</td>
+                        <td>6 scènes</td>
+                        <td>24 vers</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="col-2"></div>
+            <div class="col-8">
+                <img src="img/ecrire.jpg" alt="machine à écrire" height="auto" width="100%">
+            </div>
+            <div class="col-2"></div>  
+        </div>
+        <br>
+        <br>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#contactModal">Je Participe!</button>
+        </div>
+
+        <!-- mise en place de la fenetre modale qui s'ouvrira en cliquant sur le bouton je participe
+        Cette fenetre aura 1 champ votre e-mail et disposera d'un bouton envoyer et fermer -->
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+            aria-hidden="true">
+
+            <div class="modal-dialog" role="document">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <!-- La fenêtre aura pour titre "Votre mail" et disposera d'un bouton pour pouvoir être fermée. -->
+                        <h5 class="modal-title" id="contactModalLabel">Votre mail</h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                            <span aria-hidden="true">&times;</span>
+
+                        </button>
+
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <!-- fenetre 1 champ -->
+                            <div class="form-group">
+                                <label for="email">Votre mail</label>
+                                <input type="email" class="form-control" id="email" name="email">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        <button type="button" class="btn btn-primary">Envoyer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+         
+    </main>
+
+    <footer class="row">
+        <br><br>
+        <div class="col-12 d-flex justify-content-around">
+            <p>Qui sommes nous</p>
+            <p>Notre adresse</p>
+            <p>Nous contacter</p>
+        </div>
+        <br><br>
+        <div class="col-12 d-flex justify-content-center">
+            <p>© 2021 Lis! All rights reserved.</p>
+        </div>
+        <br>
+        <div class="col-12 d-flex justify-content-center">
+            <p>Design by ThomasDevweb94</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
